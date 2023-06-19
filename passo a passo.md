@@ -112,3 +112,5 @@ export default function Cardapio() {
 35. Adicionado a regra para não importa o Jsx
 36. Importação da regra: "react/react-in-jsx-scope":"off",
 37. Criando a primeira página inicio
+38. Resolvendo rotas
+39. Usando react-router-dom 
