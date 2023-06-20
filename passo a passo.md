@@ -113,4 +113,5 @@ export default function Cardapio() {
 36. Importação da regra: "react/react-in-jsx-scope":"off",
 37. Criando a primeira página inicio
 38. Resolvendo rotas
-39. Usando react-router-dom 
+39. Usando react-router-dom instalação npm i react-router-dom
+40. Reaproveitando o Menu.
