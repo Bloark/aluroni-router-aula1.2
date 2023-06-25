@@ -116,3 +116,4 @@ export default function Cardapio() {
 39. Usando react-router-dom instalação npm i react-router-dom
 40. Reaproveitando o Menu.
 41. Reaproveitando com react-router
+42. Trocando a tag a
