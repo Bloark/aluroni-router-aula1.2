@@ -1,6 +1,6 @@
 import cardapio from 'data/cardapio.json';
 import styles from './Inicio.module.scss';
-import Menu from 'components/Menu';
+import stylesTema from 'styles/Tema.module.scss';
 
 export default function Inicio() {
   let pratosRecomendados = [...cardapio];
@@ -8,7 +8,7 @@ export default function Inicio() {
 
   return (
     <section>      
-      <h3 className={styles.titulo}>
+      <h3 className={stylesTema.titulo}>
         Recomendação da cozinha  
       </h3>
       <div className={styles.recomendados}>
