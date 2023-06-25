@@ -118,4 +118,4 @@ export default function Cardapio() {
 41. Reaproveitando com react-router
 42. Trocando a tag a por Link
 43. Reaproveitando o Header
-44. 
+44. Pagina padrão
