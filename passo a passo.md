@@ -21,6 +21,7 @@ export default function Cardapio() {
         </main>
     )
 }
+
 ```
 
 8. npm run build
@@ -40,6 +41,7 @@ export default function Cardapio() {
         </main>
     )
 }
+
 ```
 
 11. configrando caminho absoluto no tsconfig.json como "baseUrl": "src"
@@ -53,6 +55,7 @@ export default function Cardapio() {
   box-sizing: border-box;
   font-family: 'Italiana', serif;
   }
+
 ```
 
 15. Importando o Nomarlize @import-normalize; no src/index.css para reset do css
@@ -74,6 +77,7 @@ export default function Cardapio() {
     <Cardapio />
     </React.StrictMode>
     );
+
 ```
 
 18. Criando o Header.
@@ -105,6 +109,7 @@ export default function Cardapio() {
         @typescript-eslint/eslint-plugin@latest eslint-plugin-react@latest @typescript-eslint/parser@latest eslint@latest
         √ Would you like to install them now? · No / Yes
         √ Which package manager do you want to use? · npm
+
 ```
 
 33. executar somente o eslint sem instalar npx eslint ./src --fix
@@ -119,4 +124,5 @@ export default function Cardapio() {
 42. Trocando a tag a por Link
 43. Reaproveitando o Header
 44. Pagina padrão
-45. Estiloe e tema
+45. Estilo tema
+46. Terminando a tela Sobre
