@@ -132,3 +132,4 @@ export default function Cardapio() {
 50. usando useLocation e state
 51. Detalhes do pratos
 52. Usando o useParams
+53. Refatorando tags
