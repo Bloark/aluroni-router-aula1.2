@@ -133,3 +133,4 @@ export default function Cardapio() {
 51. Detalhes do pratos
 52. Usando o useParams
 53. Refatorando tags
+54. Aplicando NotFound na tela de detalhes.
