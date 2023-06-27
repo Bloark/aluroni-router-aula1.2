@@ -130,3 +130,4 @@ export default function Cardapio() {
 48. Criando o Voltando para outra tela
 49. Criando a rota do Prato.
 50. usando useLocation e state
+51. Detalhes do pratos
