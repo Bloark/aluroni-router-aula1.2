@@ -127,3 +127,5 @@ export default function Cardapio() {
 45. Estilo tema
 46. Terminando a tela Sobre
 47. Criando o NotFound e Footer
+48. Criando o Voltando para outra tela
+49. Criando a rota do Prato.
