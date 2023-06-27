@@ -4,6 +4,7 @@ import PaginaPadrao from 'components/PaginaPadrao';
 import Inicio from 'pages/Inicio';
 import Sobre from 'pages/Sobre';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Footer from 'components/Footer';
 
 export default function AppRouter() {
   return (
@@ -11,11 +12,13 @@ export default function AppRouter() {
       <Router>
         <Menu />    
         <Routes>
-          <Route path='/' element={<PaginaPadrao />} />
-          <Route index element={<Inicio />} />
-          <Route path='cardapio' element={<Cardapio />} />
-          <Route path='sobre' element={<Sobre />} />
-        </Routes>      
+          <Route path='/' element={<PaginaPadrao />} >
+            <Route index element={<Inicio />} />
+            <Route path='cardapio' element={<Cardapio />} />
+            <Route path='sobre' element={<Sobre />} />
+          </Route>        
+        </Routes>
+        <Footer/>
       </Router> 
     </main>       
   );

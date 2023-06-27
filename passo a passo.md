@@ -126,3 +126,4 @@ export default function Cardapio() {
 44. Pagina padrão
 45. Estilo tema
 46. Terminando a tela Sobre
+47. Criando o NotFound e Footer
