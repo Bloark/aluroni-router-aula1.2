@@ -134,3 +134,4 @@ export default function Cardapio() {
 52. Usando o useParams
 53. Refatorando tags
 54. Aplicando NotFound na tela de detalhes.
+55. Resolvendo o Header
